@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomersList from './Components/CustomersList';
+import CustomersList from './Components/CustomersList/CustomersList';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Menubar from './Components/Menubar/Menubar';
 import './App.css';

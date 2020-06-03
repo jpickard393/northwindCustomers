@@ -34,11 +34,11 @@ const CustomersList = () => {
             <Container fluid>
                 <h1>Customers</h1>
             </Container>
-            <Table striped>
+            <Table hover responsive>
                 <thead>
                     <tr>
-                        <th scope="row">Id</th>
-                        <th>Company Name</th>
+                        <th class="tblHeaderId" scope="row">Id</th>
+                        <th class="tblHeader">Company Name</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -48,6 +48,7 @@ const CustomersList = () => {
             <div id='resultSpan'>
 
             </div>
+
         </div>
     );
 
